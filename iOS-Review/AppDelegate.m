@@ -3,8 +3,13 @@
 //  iOS-Review
 //
 //  Created by zhengzeqin on 2021/5/21.
-//
-
+//  https://github.com/zeqinjie/JPBasicPrincipleKit
+/**
+ 
+ MJiOS底层笔记--OC对象本质: https://juejin.cn/post/6844903767003889678#heading-0
+ 【iOS】架构师之路~底层原理篇 一 :(OC本质、KVC、KVO、Categroy、Block）: https://juejin.cn/post/6844903920322494478#heading-12
+ 
+ */
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
