@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1562D94B265F48A600762A45 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562D94A265F48A600762A45 /* KVOViewController.m */; };
+		1562D94F265F496600762A45 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562D94E265F496600762A45 /* KVCViewController.m */; };
 		15F057322657BEBE0095BC3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F057312657BEBE0095BC3B /* AppDelegate.m */; };
 		15F057352657BEBE0095BC3B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F057342657BEBE0095BC3B /* SceneDelegate.m */; };
 		15F0573B2657BEBE0095BC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F057392657BEBE0095BC3B /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1562D949265F48A600762A45 /* KVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		1562D94A265F48A600762A45 /* KVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		1562D94D265F496600762A45 /* KVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		1562D94E265F496600762A45 /* KVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
 		15F0572D2657BEBE0095BC3B /* iOS-Review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Review.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F057302657BEBE0095BC3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15F057312657BEBE0095BC3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +71,7 @@
 				15F057312657BEBE0095BC3B /* AppDelegate.m */,
 				15F057332657BEBE0095BC3B /* SceneDelegate.h */,
 				15F057342657BEBE0095BC3B /* SceneDelegate.m */,
-				15F0574A2657BED00095BC3B /* OC-对象本质 */,
+				15F0574A2657BED00095BC3B /* OC-底层原理 */,
 				15F057392657BEBE0095BC3B /* Main.storyboard */,
 				15F0573C2657BEC00095BC3B /* Assets.xcassets */,
 				15F0573E2657BEC00095BC3B /* LaunchScreen.storyboard */,
@@ -75,13 +81,17 @@
 			path = "iOS-Review";
 			sourceTree = "<group>";
 		};
-		15F0574A2657BED00095BC3B /* OC-对象本质 */ = {
+		15F0574A2657BED00095BC3B /* OC-底层原理 */ = {
 			isa = PBXGroup;
 			children = (
 				15F0574C2657C1F90095BC3B /* OCClassViewController.h */,
 				15F0574D2657C1F90095BC3B /* OCClassViewController.m */,
+				1562D949265F48A600762A45 /* KVOViewController.h */,
+				1562D94A265F48A600762A45 /* KVOViewController.m */,
+				1562D94D265F496600762A45 /* KVCViewController.h */,
+				1562D94E265F496600762A45 /* KVCViewController.m */,
 			);
-			path = "OC-对象本质";
+			path = "OC-底层原理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +166,9 @@
 				15F0574E2657C1F90095BC3B /* OCClassViewController.m in Sources */,
 				15F057322657BEBE0095BC3B /* AppDelegate.m in Sources */,
 				15F057432657BEC00095BC3B /* main.m in Sources */,
+				1562D94F265F496600762A45 /* KVCViewController.m in Sources */,
 				15F057352657BEBE0095BC3B /* SceneDelegate.m in Sources */,
+				1562D94B265F48A600762A45 /* KVOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
